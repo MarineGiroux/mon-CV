@@ -1,0 +1,361 @@
+/*STYLES GENERAUX*/
+*{
+  font-family: Avenir, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  background: rgb(237, 237, 237);
+}
+p{
+  font-size: 1.0em;
+  line-height: 1.5em;
+}
+a{
+  text-decoration: none;
+  color: rgb(33, 63, 163);
+}
+
+/*HEADER */
+header{
+  width: 100%;
+  padding: 20px 0px;
+  background: url("assets/apercu/wallpaper.jpeg") #4f4f4f;
+  background-size: cover;
+  height: 80px;
+}
+
+header h1{
+  color: white;
+  font-size: 2.3em;
+  width: 90%;
+  margin: 0 auto;
+}
+
+header h2{
+  color: white;
+  font-size: 1.5em;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/*SECTIONS*/
+section{
+  display: flex; 
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 15px;
+  margin: 10px auto;
+  box-shadow: 0px 0px 10px #bbb;
+  background-color: #fff;
+}
+
+section h2{
+  margin: 10px 0;
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+section h3{
+  margin: 10px 0;
+  margin-bottom: 10px;
+  width: 90%;
+  font-size:  1.2em;
+  line-height: 1em;
+}
+
+section > div{
+  width: 90%;
+}
+
+/*SECTION INFOS*/
+.presentation{
+  border-bottom: 2px dashed #ccc;
+}
+
+.telecharger-btn {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  margin: 10px auto 30px auto;
+  color: #fff;
+  background-color: #4b8;
+  box-shadow: 0px 0px 10px #ccc;
+  border-radius: 5px;
+}
+
+.telecharger-btn:hover {
+  background-color: rgb(90, 236, 173);;
+  color : #464646;
+  cursor: pointer; 
+  transform: scale(1.01);
+}
+
+.contact-flex{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.contact-flex p:first-child{
+  flex: 0 0 40%;
+}
+.contact-flex p:last-child{
+  flex: 0 0 60%;
+}
+
+.social{
+  justify-content: left;
+  margin: 10px auto 0px auto;
+}
+.contact-flex img{
+  width: 25px;
+  height: 25px;
+}
+
+
+/*SECTION EXP ET FORMATION*/
+.exp{
+  display: flex;
+  flex-flow: row wrap;
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 22px;
+}
+
+.exp-info{
+  flex-flow: column wrap;
+  flex: 0 0 70%;
+  margin-left: auto;
+  flex-direction: column;
+}
+
+.exp-desc{
+  flex-direction: column;
+}
+
+.exp-logo{
+  flex: 0 0 25%;
+  max-width: 100px;
+  border-radius: 70%;
+  max-height: 50px;
+}
+
+.exp img{
+  width: 100%;
+  margin-top: 15px;
+}
+
+.img-logo{
+  border-radius: 20px;
+}
+
+.exp h3{
+  font-size:  1.3em;
+
+  margin-top: 10px;
+}
+
+.exp h4{
+  font-size:  1.2em;
+  margin-top: 10px;
+}
+
+.exp h5{
+  font-size:  1em;
+  font-weight: normal;
+  line-height: 1.5em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.exp li{
+  font-size:  0.9em;
+  line-height: 1.5em;
+}
+
+.exp-meca{
+  display: flex;
+  flex-flow: row wrap;
+  padding-bottom: 10px;
+}
+
+.exp-meca img{
+  width: 100%;
+  margin-top: 30px;
+}
+
+.exp-meca h4{
+  font-size:  1.1em;
+  line-height: 1.5em;
+  margin-top: 10px;
+}
+
+.exp-meca h5{
+  font-size:  1em;
+  font-weight: normal;
+  line-height: 1.5em;
+}
+
+.exp-meca li{
+  font-size:  0.9em;
+  line-height: 1.5em;
+}
+
+
+/*SECTION COMPETENCES*/
+.fig-compet{
+  flex: 0 1 50%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin-bottom: 0px;
+  padding: 1%;
+  max-width : 85px;
+}
+
+
+.fig-compet img{
+  height: 40px;
+}
+
+.figcaption-compet{
+  font-size:  0.8em;
+  line-height: 2em;
+  text-align: center;
+}
+
+.li-comp {
+  width: 100%;
+  margin-left: 20px;
+  font-size: 0.9em;
+}
+
+/*SECTION INTERETS*/
+.interet{
+  flex: 0 1 50%;
+  display: flex;
+  flex-flow:  column wrap;
+  align-items: center;
+  margin-bottom: 0px;
+  padding: 2%;
+}
+
+.interet img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px #555;
+}
+
+figcaption{
+  font-size:  0.9em;
+  line-height: 2em;
+}
+
+/*AFFICHAGE POSITIONNEMENT */
+.all{
+  margin-left: auto;
+  margin-right: auto;
+  width:80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.left section{
+  width: 98%;
+}
+.right section{
+  width: 98%;
+}
+
+.left{
+  justify-content: center;
+  flex: 100%;
+}
+
+.right{
+  justify-content: center;
+  flex: 40%;
+}
+
+.div_compet{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 10px;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.section-compet{
+  padding-bottom: 0;
+}
+
+.section-exp{
+  padding-bottom: 0;
+}
+
+.section-form{
+  padding-bottom: 0;
+}
+
+.section-interet{
+  padding-bottom: 0;
+}
+
+/*VERSION BUREAU DU CV*/
+@media screen and (min-width: 980px){
+  section{
+      width: 80%;
+      box-shadow: 0px 0px 10px #bbb;
+  }
+ 
+  header h1{
+      width: 80%;
+  }
+  .presentation, .contact{
+      flex: 0 0 45%;
+  }
+  
+  .presentation{
+      border-bottom: none;
+      border-right: 2px solid #ccc;
+      padding-right: 20px;
+      margin-left: auto;
+  }
+  .contact{
+      padding-left: 20px;
+      margin-right: auto;
+  }
+  .presentation a{
+      border: 2px solid transparent;
+  }
+ 
+  .exp img{
+    width: 100%;
+  }
+
+  .exp-info, .exp-desc{
+      flex: 0 0 85%;
+      margin-left: auto;
+  }
+  .interet{
+      flex: 0 1 25%;
+  }
+  
+
+  .all{
+    border-bottom: none;
+    padding-right: 20px;
+    margin-left: auto;
+    flex: 0 0 45%;
+    flex-direction: row;
+}
+
+
+
+}
