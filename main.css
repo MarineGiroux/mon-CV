@@ -33,58 +33,6 @@ header h1{
   margin: 0 auto;
 }
 
-/*AFFICHAGE POSITIONNEMENT */
-.all{
-  margin-left: auto;
-  margin-right: auto;
-  width:80%;
-  display: flex;
-  flex-direction: column;
-}
-
-.left section{
-  width: 98%;
-}
-.right section{
-  width: 98%;
-}
-
-.left{
-  justify-content: center;
-  flex: 100%;
-}
-
-.right{
-  justify-content: center;
-  flex: 40%;
-}
-
-.div_compet{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  border-bottom: 1px solid #bbb;
-  padding-bottom: 5px;
-  width: 100%;
-  margin-bottom: 0;
-}
-
-.section-compet{
-  padding-bottom: 0;
-}
-
-.section-exp{
-  padding-bottom: 0;
-}
-
-.section-form{
-  padding-bottom: 0;
-}
-
-.section-interet{
-  padding-bottom: 0;
-}
-
 /*SECTIONS*/
 section{
   display: flex; 
@@ -265,6 +213,58 @@ section > div{
 figcaption{
   font-size:  0.9em;
   line-height: 2em;
+}
+
+/*AFFICHAGE POSITIONNEMENT */
+.all{
+  margin-left: auto;
+  margin-right: auto;
+  width:80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.left section{
+  width: 98%;
+}
+.right section{
+  width: 98%;
+}
+
+.left{
+  justify-content: center;
+  flex: 100%;
+}
+
+.right{
+  justify-content: center;
+  flex: 40%;
+}
+
+.div_compet{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 10px;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.section-compet{
+  padding-bottom: 0;
+}
+
+.section-exp{
+  padding-bottom: 0;
+}
+
+.section-form{
+  padding-bottom: 0;
+}
+
+.section-interet{
+  padding-bottom: 0;
 }
 
 /*VERSION BUREAU DU CV*/
