@@ -246,7 +246,7 @@ figcaption{
   flex-wrap: wrap;
   justify-content: center;
   border-bottom: 1px solid #bbb;
-  padding-bottom: 10px;
+  padding-bottom: 1px;
   width: 100%;
   margin-bottom: 0;
 }
