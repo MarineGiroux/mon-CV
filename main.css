@@ -9,7 +9,7 @@ body{
   background: rgb(237, 237, 237);
 }
 p{
-  font-size: 1.2em;
+  font-size: 1.0em;
   line-height: 1.5em;
 }
 a{
@@ -28,14 +28,14 @@ header{
 
 header h1{
   color: white;
-  font-size: 2.5em;
+  font-size: 2.3em;
   width: 90%;
   margin: 0 auto;
 }
 
 header h2{
   color: white;
-  font-size: 1.6em;
+  font-size: 1.5em;
   width: 90%;
   text-align: center;
   margin: 0 auto;
@@ -45,14 +45,16 @@ header h2{
 section{
   display: flex; 
   flex-flow: row wrap;
+  justify-content: center;
   width: 100%;
+  padding-bottom: 15px;
   margin: 10px auto;
   box-shadow: 0px 0px 10px #bbb;
   background-color: #fff;
 }
 
 section h2{
-  margin: 15px;
+  margin: 10px 0;
   margin-bottom: 10px;
   width: 90%;
 }
@@ -66,7 +68,7 @@ section h3{
 }
 
 section > div{
-  width: 100%;
+  width: 90%;
 }
 
 /*SECTION INFOS*/
@@ -136,16 +138,14 @@ section > div{
 
 .exp-logo{
   flex: 0 0 25%;
-  max-width: 130px;
+  max-width: 100px;
   border-radius: 70%;
   max-height: 50px;
-  margin-left: 15px;
 }
 
 .exp img{
   width: 100%;
-  margin-top: 20px;
-  margin-left: 15px;
+  margin-top: 15px;
 }
 
 .img-logo{
@@ -153,18 +153,18 @@ section > div{
 }
 
 .exp h3{
-  font-size:  1.5em;
+  font-size:  1.3em;
 
   margin-top: 10px;
 }
 
 .exp h4{
-  font-size:  1.4em;
+  font-size:  1.2em;
   margin-top: 10px;
 }
 
 .exp h5{
-  font-size:  1.2em;
+  font-size:  1em;
   font-weight: normal;
   line-height: 1.5em;
   margin-top: 5px;
@@ -172,7 +172,7 @@ section > div{
 }
 
 .exp li{
-  font-size:  1.2em;
+  font-size:  0.9em;
   line-height: 1.5em;
 }
 
@@ -188,19 +188,19 @@ section > div{
 }
 
 .exp-meca h4{
-  font-size:  1.3em;
+  font-size:  1.1em;
   line-height: 1.5em;
   margin-top: 10px;
 }
 
 .exp-meca h5{
-  font-size:  1.2em;
+  font-size:  1em;
   font-weight: normal;
   line-height: 1.5em;
 }
 
 .exp-meca li{
-  font-size:  1.2em;
+  font-size:  0.9em;
   line-height: 1.5em;
 }
 
@@ -211,8 +211,8 @@ section > div{
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-  margin-bottom: 16px;
-  padding: 2%;
+  margin-bottom: 0px;
+  padding: 1%;
   max-width : 85px;
 }
 
@@ -222,7 +222,7 @@ section > div{
 }
 
 .figcaption-compet{
-  font-size:  1em;
+  font-size:  0.8em;
   line-height: 2em;
   text-align: center;
 }
@@ -230,7 +230,7 @@ section > div{
 .li-comp {
   width: 100%;
   margin-left: 20px;
-  font-size: 1.2em;
+  font-size: 0.9em;
 }
 
 /*SECTION INTERETS*/
@@ -240,7 +240,7 @@ section > div{
   flex-flow:  column wrap;
   align-items: center;
   margin-bottom: 0px;
-  padding: 1%;
+  padding: 2%;
 }
 
 .interet img{
@@ -257,34 +257,36 @@ figcaption{
 
 /*AFFICHAGE POSITIONNEMENT */
 .all{
-  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+  width:80%;
   display: flex;
   flex-direction: column;
 }
 
 .left section{
-  width: 100%;
+  width: 98%;
 }
-
 .right section{
-  width: 100%;
+  width: 98%;
 }
 
 .left{
+  justify-content: center;
   flex: 100%;
-  padding-right: 5px;
 }
 
 .right{
+  justify-content: center;
   flex: 40%;
-  padding-left: 5px;
 }
 
 .div_compet{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  border-bottom: 2px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 10px;
   width: 100%;
   margin-bottom: 0;
 }
@@ -308,12 +310,12 @@ figcaption{
 /*VERSION BUREAU DU CV*/
 @media screen and (min-width: 980px){
   section{
-      width: 100%;
+      width: 80%;
       box-shadow: 0px 0px 10px #bbb;
   }
  
   header h1{
-      width: 92%;
+      width: 80%;
   }
   .presentation, .contact{
       flex: 0 0 45%;
@@ -348,6 +350,8 @@ figcaption{
 
   .all{
     border-bottom: none;
+    padding-right: 20px;
+    margin-left: auto;
     flex: 0 0 45%;
     flex-direction: row;
 }
