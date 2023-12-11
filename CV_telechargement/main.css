@@ -7,9 +7,10 @@
 
 body{
   background: rgb(237, 237, 237);
+
 }
 p{
-  font-size: 1.2em;
+  font-size: 1.5em;
   line-height: 1.5em;
 }
 a{
@@ -17,25 +18,38 @@ a{
   color: rgb(33, 63, 163);
 }
 
+/*FOOTER*/
+.footer {
+  width: 100%;
+
+}
+
+footer {
+  height: 30px;
+}
+
+
+
 /*HEADER */
 header{
   width: 100%;
-  padding: 20px 0px;
+
   background: url("assets/apercu/wallpaper.jpeg") #4f4f4f;
   background-size: cover;
-  height: 80px;
+  height: 150px;
+  padding-top: 50px;
 }
 
 header h1{
   color: white;
-  font-size: 2.5em;
+  font-size: 2.9em;
   width: 90%;
   margin: 0 auto;
 }
 
 header h2{
   color: white;
-  font-size: 1.6em;
+  font-size: 2.2em;
   width: 90%;
   text-align: center;
   margin: 0 auto;
@@ -52,16 +66,17 @@ section{
 }
 
 section h2{
-  margin: 15px;
+  margin : 40px;
   margin-bottom: 10px;
   width: 90%;
+  font-size: 2.2em;
 }
 
 section h3{
   margin: 10px 0;
   margin-bottom: 10px;
   width: 90%;
-  font-size:  1.2em;
+  font-size:  2em;
   line-height: 1em;
 }
 
@@ -99,10 +114,10 @@ section > div{
 }
 
 .contact-flex p:first-child{
-  flex: 0 0 40%;
+  flex: 0 0 30%;
 }
 .contact-flex p:last-child{
-  flex: 0 0 60%;
+  flex: 0 0 70%;
 }
 
 .social{
@@ -120,13 +135,11 @@ section > div{
   display: flex;
   flex-flow: row wrap;
   border-bottom: 1px solid #bbb;
-  padding-bottom: 22px;
+  padding-bottom: 20px;
 }
 
 .exp-info{
   flex-flow: column wrap;
-  flex: 0 0 70%;
-  margin-left: auto;
   flex-direction: column;
 }
 
@@ -135,17 +148,15 @@ section > div{
 }
 
 .exp-logo{
-  flex: 0 0 25%;
-  max-width: 130px;
+  max-width: 160px;
   border-radius: 70%;
-  max-height: 50px;
-  margin-left: 15px;
 }
 
 .exp img{
   width: 100%;
   margin-top: 20px;
-  margin-left: 15px;
+  margin-left: 40px;
+
 }
 
 .img-logo{
@@ -153,55 +164,69 @@ section > div{
 }
 
 .exp h3{
-  font-size:  1.5em;
-
+  font-size:  2.2em;
   margin-top: 10px;
+  margin-left: 50px;
 }
 
 .exp h4{
-  font-size:  1.4em;
+  font-size:  1.9em;
   margin-top: 10px;
+  margin-left: 50px;
 }
 
 .exp h5{
-  font-size:  1.2em;
+  font-size:  1.7em;
   font-weight: normal;
   line-height: 1.5em;
   margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
+  margin-left: 50px;
 }
 
 .exp li{
-  font-size:  1.2em;
+  font-size:  1.7em;
   line-height: 1.5em;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.exp p {
+  margin-left: 50px;
 }
 
 .exp-meca{
   display: flex;
   flex-flow: row wrap;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 
 .exp-meca img{
   width: 100%;
   margin-top: 30px;
+  margin-left: 40px;
+  
 }
 
 .exp-meca h4{
-  font-size:  1.3em;
+  font-size:  1.8em;
   line-height: 1.5em;
   margin-top: 10px;
+  margin-left: 50px;
 }
 
 .exp-meca h5{
-  font-size:  1.2em;
+  font-size:  1.7em;
   font-weight: normal;
   line-height: 1.5em;
+  margin-left: 50px;
 }
 
 .exp-meca li{
-  font-size:  1.2em;
+  font-size:  1.7em;
   line-height: 1.5em;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 
@@ -211,18 +236,18 @@ section > div{
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-  margin-bottom: 16px;
-  padding: 2%;
-  max-width : 85px;
+  margin-bottom: 29px;
+  padding: 1%;
+  max-width : 150px;
 }
 
 
 .fig-compet img{
-  height: 40px;
+  height: 60px;
 }
 
 .figcaption-compet{
-  font-size:  1em;
+  font-size:  1.5em;
   line-height: 2em;
   text-align: center;
 }
@@ -230,7 +255,8 @@ section > div{
 .li-comp {
   width: 100%;
   margin-left: 20px;
-  font-size: 1.2em;
+  margin-right: 50px;
+  font-size: 1.5em;
 }
 
 /*SECTION INTERETS*/
@@ -240,19 +266,20 @@ section > div{
   flex-flow:  column wrap;
   align-items: center;
   margin-bottom: 0px;
-  padding: 1%;
+  padding: 10px;
 }
 
 .interet img{
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   box-shadow: 0px 0px 15px #555;
 }
 
 figcaption{
-  font-size:  0.9em;
+  font-size:  1.4em;
   line-height: 2em;
+
 }
 
 /*AFFICHAGE POSITIONNEMENT */
@@ -287,6 +314,7 @@ figcaption{
   border-bottom: 2px solid #bbb;
   width: 100%;
   margin-bottom: 0;
+  padding-bottom: 12px;
 }
 
 .section-compet{
@@ -303,6 +331,7 @@ figcaption{
 
 .section-interet{
   padding-bottom: 0;
+  justify-content: center;
 }
 
 /*VERSION BUREAU DU CV*/
