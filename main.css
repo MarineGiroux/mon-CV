@@ -9,7 +9,7 @@ body{
   background: rgb(237, 237, 237);
 }
 p{
-  font-size: 1.3em;
+  font-size: 1.5em;
   line-height: 1.5em;
 }
 a{
@@ -32,22 +32,23 @@ footer {
 /*HEADER */
 header{
   width: 100%;
-  padding: 20px 0px;
+
   background: url("assets/apercu/wallpaper.jpeg") #4f4f4f;
   background-size: cover;
-  height: 120px;
+  height: 150px;
+  padding-top: 50px;
 }
 
 header h1{
   color: white;
-  font-size: 2.7em;
+  font-size: 2.9em;
   width: 90%;
   margin: 0 auto;
 }
 
 header h2{
   color: white;
-  font-size: 2em;
+  font-size: 2.2em;
   width: 90%;
   text-align: center;
   margin: 0 auto;
@@ -67,14 +68,14 @@ section h2{
   margin: 15px;
   margin-bottom: 10px;
   width: 90%;
-  font-size: 2em;
+  font-size: 2.2em;
 }
 
 section h3{
   margin: 10px 0;
   margin-bottom: 10px;
   width: 90%;
-  font-size:  1.8em;
+  font-size:  2em;
   line-height: 1em;
 }
 
@@ -112,10 +113,10 @@ section > div{
 }
 
 .contact-flex p:first-child{
-  flex: 0 0 40%;
+  flex: 0 0 30%;
 }
 .contact-flex p:last-child{
-  flex: 0 0 60%;
+  flex: 0 0 70%;
 }
 
 .social{
@@ -164,17 +165,17 @@ section > div{
 }
 
 .exp h3{
-  font-size:  2em;
+  font-size:  2.2em;
   margin-top: 10px;
 }
 
 .exp h4{
-  font-size:  1.7em;
+  font-size:  1.9em;
   margin-top: 10px;
 }
 
 .exp h5{
-  font-size:  1.5em;
+  font-size:  1.7em;
   font-weight: normal;
   line-height: 1.5em;
   margin-top: 5px;
@@ -182,7 +183,7 @@ section > div{
 }
 
 .exp li{
-  font-size:  1.5em;
+  font-size:  1.7em;
   line-height: 1.5em;
   margin-right: 50px;
 }
@@ -200,19 +201,19 @@ section > div{
 }
 
 .exp-meca h4{
-  font-size:  1.6em;
+  font-size:  1.8em;
   line-height: 1.5em;
   margin-top: 10px;
 }
 
 .exp-meca h5{
-  font-size:  1.5em;
+  font-size:  1.7em;
   font-weight: normal;
   line-height: 1.5em;
 }
 
 .exp-meca li{
-  font-size:  1.5em;
+  font-size:  1.7em;
   line-height: 1.5em;
   margin-right: 50px;
 }
@@ -224,9 +225,9 @@ section > div{
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-  margin-bottom: 16px;
+  margin-bottom: 30px;
   padding: 2%;
-  max-width : 100px;
+  max-width : 150px;
 }
 
 
@@ -235,7 +236,7 @@ section > div{
 }
 
 .figcaption-compet{
-  font-size:  1.3em;
+  font-size:  1.5em;
   line-height: 2em;
   text-align: center;
 }
@@ -243,7 +244,7 @@ section > div{
 .li-comp {
   width: 100%;
   margin-left: 20px;
-  font-size: 1.5em;
+  font-size: 1.7em;
 }
 
 /*SECTION INTERETS*/
@@ -253,7 +254,7 @@ section > div{
   flex-flow:  column wrap;
   align-items: center;
   margin-bottom: 0px;
-  padding: 0.8%;
+  padding: 16px;
 }
 
 .interet img{
@@ -264,7 +265,7 @@ section > div{
 }
 
 figcaption{
-  font-size:  1.2em;
+  font-size:  1.4em;
   line-height: 2em;
 
 }
@@ -301,6 +302,7 @@ figcaption{
   border-bottom: 2px solid #bbb;
   width: 100%;
   margin-bottom: 0;
+  padding-bottom: 12px;
 }
 
 .section-compet{
