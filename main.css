@@ -17,6 +17,18 @@ a{
   color: rgb(33, 63, 163);
 }
 
+/*FOOTER*/
+.footer {
+  width: 100%;
+
+}
+
+footer {
+  height: 30px;
+}
+
+
+
 /*HEADER */
 header{
   width: 100%;
@@ -240,7 +252,7 @@ section > div{
   flex-flow:  column wrap;
   align-items: center;
   margin-bottom: 0px;
-  padding: 1%;
+  padding: 0.8%;
 }
 
 .interet img{
