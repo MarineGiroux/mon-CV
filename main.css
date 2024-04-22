@@ -9,7 +9,7 @@ body{
   background: rgb(237, 237, 237);
 }
 p{
-  font-size: 1.0em;
+  font-size: 1em;
   line-height: 1.5em;
 }
 a{
@@ -21,24 +21,18 @@ a{
 header{
   width: 100%;
   padding: 20px 0px;
-  background: url("assets/apercu/wallpaper.jpeg") #4f4f4f;
+  background: url("assets/apercu/wallpaper1.jpg") #4f4f4f;
   background-size: cover;
   height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 header h1{
   color: white;
   font-size: 2.3em;
-  width: 90%;
-  margin: 0 auto;
-}
-
-header h2{
-  color: white;
-  font-size: 1.5em;
-  width: 90%;
   text-align: center;
-  margin: 0 auto;
 }
 
 /*SECTIONS*/
@@ -63,7 +57,7 @@ section h3{
   margin: 10px 0;
   margin-bottom: 10px;
   width: 90%;
-  font-size:  1.2em;
+  font-size:  1.4em;
   line-height: 1em;
 }
 
@@ -71,7 +65,7 @@ section h4{
   margin: 10px 0;
   margin-bottom: 10px;
   width: 90%;
-  font-size:  1em;
+  font-size:  1.2em;
   line-height: 1em;
 }
 
@@ -130,7 +124,7 @@ section > div{
   display: flex;
   flex-flow: row wrap;
   border-bottom: 1px solid #bbb;
-  padding-bottom: 31px;
+  padding-bottom: 11.5px;
 }
 
 .exp-info{
@@ -172,7 +166,7 @@ section > div{
 }
 
 .exp h5{
-  font-size:  1em;
+  font-size:  1.2em;
   font-weight: normal;
   line-height: 1.5em;
   margin-top: 5px;
@@ -180,7 +174,7 @@ section > div{
 }
 
 .exp li{
-  font-size:  0.9em;
+  font-size:  1.1em;
   line-height: 1.5em;
 }
 
@@ -196,7 +190,7 @@ section > div{
 }
 
 .exp-meca h4{
-  font-size:  1.1em;
+  font-size:  1.3em;
   line-height: 1.5em;
   margin-top: 10px;
 }
@@ -220,8 +214,8 @@ section > div{
   flex-flow: column wrap;
   align-items: center;
   margin-bottom: 0px;
-  padding: 2%;
-  max-width : 100px;
+  padding: 4%;
+  max-width : 80px;
 }
 
 
@@ -230,7 +224,7 @@ section > div{
 }
 
 .figcaption-compet{
-  font-size:  0.8em;
+  font-size:  1em;
   line-height: 2em;
   text-align: center;
 }
@@ -251,8 +245,8 @@ section > div{
 }
 
 .interet img{
-  width: 50px;
-  height:50px;
+  width: 70px;
+  height:70px;
   border-radius: 50%;
   box-shadow: 0px 0px 15px #555;
 }
@@ -281,15 +275,15 @@ figcaption{
 .left {
   justify-content: center;
   flex: 100%;
-  margin-right: 2px;
-  margin-left: 2px;
+  margin-right: 3px;
+  margin-left: 3px;
 }
 
 .right {
   justify-content: center;
-  flex: 31%;
-  margin-right: 2px;
-  margin-left: 2px;
+  flex: 27%;
+  margin-right: 3px;
+  margin-left: 3px;
 }
 
 
@@ -298,7 +292,7 @@ figcaption{
   flex-wrap: wrap;
   justify-content: center;
   border-bottom: 1px solid #bbb;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   width: 100%;
   margin-bottom: 0;
 }
@@ -327,7 +321,7 @@ figcaption{
   }
  
   header h1{
-      width: 80%;
+      width: 100%;
   }
   .presentation, .contact{
       flex: 0 0 45%;
