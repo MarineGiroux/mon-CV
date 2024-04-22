@@ -68,8 +68,6 @@ section h3{
 }
 
 section h4{
-  margin: 10px 0;
-  margin-bottom: 10px;
   width: 90%;
   font-size:  1.6em;
   line-height: 1em;
@@ -170,7 +168,6 @@ section > div{
 
 .exp h4{
   font-size:  1.6em;
-  margin-top: 10px;
 }
 
 .exp h5{
@@ -196,13 +193,12 @@ section > div{
 
 .exp-meca img{
   width: 150px;
-  margin-top: 30px;
+  margin-top: 5px;
 }
 
 .exp-meca h4{
   font-size:  1.7em;
   line-height: 1.5em;
-  margin-top: 10px;
 }
 
 .exp-meca h5{
