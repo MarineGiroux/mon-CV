@@ -161,17 +161,17 @@ section > div{
 }
 
 .exp h3{
-  font-size:  1.5em;
-
+  font-size:  1.7em;
   margin-top: 10px;
 }
 
 .exp h4{
-  font-size:  1.6em;
+  margin-top: 10px;
+  font-size:  1.3em;
 }
 
 .exp h5{
-  font-size:  1.2em;
+  font-size:  1.1em;
   font-weight: normal;
   line-height: 1.5em;
   margin-top: 5px;
@@ -179,7 +179,7 @@ section > div{
 }
 
 .exp li{
-  font-size:  1.1em;
+  font-size:  1em;
   line-height: 1.5em;
 }
 
