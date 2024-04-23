@@ -128,7 +128,7 @@ section > div{
   display: flex;
   flex-flow: row wrap;
   border-bottom: 1px solid #bbb;
-  padding-bottom: 11.5px;
+  padding-bottom: 12px;
   width: 100%;
   margin-left:15px;
 }
@@ -171,7 +171,7 @@ section > div{
 }
 
 .exp h5{
-  font-size:  1.2em;
+  font-size:  1.3em;
   font-weight: normal;
   line-height: 1.5em;
   margin-top: 5px;
@@ -181,19 +181,6 @@ section > div{
 .exp li{
   font-size:  1.1em;
   line-height: 1.5em;
-}
-
-.exp-meca{
-  display: flex;
-  flex-flow: row wrap;
-  width: 100%;
-  margin:10px;
-  padding-bottom: 10px;
-}
-
-.exp-meca img{
-  width: 150px;
-  margin-top: 5px;
 }
 
 
