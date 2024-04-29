@@ -132,6 +132,14 @@ section > div{
   width: 100%;
   margin-left:15px;
 }
+.exp-meca{
+  display: flex;
+  flex-flow: row wrap;
+  padding-bottom: 12px;
+  width: 100%;
+  margin-left:15px;
+  margin-top:15px;
+}
 
 .exp-info{
   flex-flow: column wrap;
@@ -149,16 +157,26 @@ section > div{
   max-width: 150px;
   border-radius: 70%;
   max-height: 140px;
-}
-
-.exp img{
-  width: 150px;
   margin-top: 15px;
 }
 
 .img-logo{
   border-radius: 50px;
+  width: 150px;
+  margin-top: 15px;
 }
+.img-logo-meca{
+  width: 100px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.img-logo-mecaSEBS{
+  border-radius: 50px;
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 100px;
+}
+
 
 .exp h3{
   font-size:  1.8em;
@@ -195,8 +213,18 @@ section > div{
   max-width : 90px;
 }
 
+.fig-compet-outil{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
 
 .fig-compet img{
+  height: 60px;
+}
+
+.fig-compet-outil img{
   height: 60px;
 }
 
