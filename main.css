@@ -57,6 +57,7 @@ section h2 {
   margin-bottom: 10px;
   width: 90%;
   font-size: 2em;
+  color: rgb(14, 114, 114);
 }
 
 section h3 {
@@ -127,7 +128,8 @@ section > div {
   display: flex;
   flex-flow: row wrap;
   border-bottom: 1px solid #bbb;
-  padding-bottom: 12px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   width: 100%;
   margin-left: 15px;
 }
