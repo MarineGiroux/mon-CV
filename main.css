@@ -170,8 +170,8 @@ aside {
 }
 
 aside img {
-    width: 100%;
-    margin: 40px auto 40px;
+    width: 80%;
+    margin: 20px auto 20px;
     display: block;
     border-radius: 50%;
 }
