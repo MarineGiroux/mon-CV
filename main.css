@@ -416,6 +416,15 @@ aside .logos article {
     font-size: 25px;
 }
 
+.mobile-title {
+    display: none;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 @media (max-width: 1024px) {
 
     header ul li:first-child {
@@ -587,6 +596,16 @@ aside .logos article {
         color: #fff;
         cursor: pointer;
         transform: scale(1.01);
+    }
+
+    .mobile-title {
+        display: block;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .title {
+        display: none;
     }
 }
 
